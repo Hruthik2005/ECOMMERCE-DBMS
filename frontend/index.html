@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Shop</h1>
+      <div class="header-actions">
+        <button id="logoutButton" class="logout-btn" onclick="logout()">Logout</button>
+        <a id="cartButton" class="cart-btn" href="cart.html">
+          <span class="cart-icon">&#128722;</span>
+          <span>Cart</span>
+          <span class="cart-count" id="cartCount">0</span>
+        </a>
+      </div>
+    </header>
+    <nav>
+      <button class="active" data-category="all">All</button>
+      <button data-category="electronics">Electronics</button>
+      <button data-category="clothing">Clothing</button>
+      <button data-category="home">Home</button>
+    </nav>
+    <main>
+      <div class="product-grid" id="productGrid"></div>
+      <div class="actions">
+        <button class="btn" onclick="checkout()">Checkout</button>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
