@@ -164,8 +164,3 @@ GitHub: [@Hruhtik2005](https://github.com/Hruthik2005)
 ---
 
 > ⚠️ **Note**: This is a demo project for learning purposes. No real payment processing is implemented.
-
-```
-
-
-
